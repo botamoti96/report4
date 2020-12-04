@@ -1,6 +1,6 @@
 package jp.ac.uryukyu.ie.e205759;
 
-public class Warrior extends LivingThing{
+public class Warrior extends Hero{
 
     public Warrior(String name, int maximumHP, int attack){
         super(name, maximumHP, attack);
