@@ -1,10 +1,10 @@
 package jp.ac.uryukyu.ie.e205759;
 
 public class LivingThing {
-    private String name;
-    private int hitPoint;
-    private int attack;
-    private boolean dead;
+    protected String name;
+    protected int hitPoint;
+    protected int attack;
+    protected boolean dead;
 
     public LivingThing(String name, int maximumHP, int attack){
         this.name = name;
