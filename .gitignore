@@ -3,3 +3,7 @@
 
 # Ignore Gradle build output directory
 build
+
+# Ignore app.java
+app.java
+appTest.java
